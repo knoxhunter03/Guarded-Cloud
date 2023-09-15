@@ -1,0 +1,67 @@
+.modal {
+    /* border-radius: 10px; */
+    border: none;
+    background-color: var(--nord1);
+    margin: 0;
+    padding: 2rem 1rem;
+
+    color: var(--nord5);
+
+    width: fit-content;
+    max-width: 60vw;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal::backdrop {
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.description {
+    word-wrap: break-word;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.points {
+    font-size: large;
+    color: var(--nord12);
+
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-left: 2px solid var(--nord5);
+}
+
+.close {
+    margin-left: auto;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+
+    cursor: pointer;
+}
+
+
+.hintSpacing {
+    margin-bottom: 10px;
+  }
+  
+.ctfLinks{
+    padding: 2px 2px 2px 2px;
+    min-height: 35px;
+}
+.author{
+    font-size: 14px;
+    font-weight: 200;
+}

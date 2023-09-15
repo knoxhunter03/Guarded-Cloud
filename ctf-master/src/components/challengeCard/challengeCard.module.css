@@ -1,0 +1,26 @@
+.card {
+    background-color: var(--nord2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 1.6rem;
+    /* border-radius: 0.5rem; */
+    cursor: pointer;
+}
+
+.solved {
+    cursor: arrow;
+    background-color: var(--nord14);
+    color: var(--header-footer-black);
+    cursor: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+    border-bottom: 1px solid;
+}
+
+.description {
+    word-wrap: break-word;
+}
+
